@@ -4,7 +4,7 @@ namespace BeeBuzz.Data.Interfaces
 {
     public interface IOrganizationRepository: IBeeBuzzGenericRepository<Organization>
     {
-        Task<IEnumerable<ApplicationUser>> GetAllUsers(int userId);
-        Task<IEnumerable<Beehive>>GetAllBeehives(int beehiveId);
+        IEnumerable<ApplicationUser> GetAllUsers(int orgId);
+        IEnumerable<Beehive> GetAllBeehives(int orgId);
     }
 }

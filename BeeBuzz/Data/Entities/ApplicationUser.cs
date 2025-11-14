@@ -8,7 +8,7 @@ namespace BeeBuzz.Data.Entities
         public int UserId { get; set; }
         public ICollection<Beehive> Beehives { get; set; }
         
-        [ForeignKey("Organization")]
         public int OrganizationId { get; set; }
+        public Organization Organization { get; set; }
     }
 }

@@ -6,5 +6,7 @@
         public string Location { get; set; }
         public string Status { get; set; }
         public string Deactivation { get; set; }
+        public int OrganizationId { get; set; }
+        public Organization Organization { get; set; }
     }
 }
