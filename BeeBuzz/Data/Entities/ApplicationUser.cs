@@ -9,6 +9,6 @@ namespace BeeBuzz.Data.Entities
         public ICollection<Beehive> Beehives { get; set; }
         
         public int OrganizationId { get; set; }
-        public Organization Organization { get; set; }
+        public string Role {  get; set; }
     }
 }

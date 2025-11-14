@@ -1,4 +1,6 @@
 {
-  "OrganizationId": 0000-0000-0000-0000,
+  "OrganizationId": 1,
+  "UserId": 1,
+  "Role":  "Admin"
 
 }
